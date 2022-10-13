@@ -1,0 +1,17 @@
+{
+    "name": "hitek-financials/first-package",
+    "description": "This is a package to practice laravel package developemnet",
+    "autoload": {
+        "psr-4": {
+            "HitekFinancials\\FirstPackage\\": "src/"
+        },
+        "files": ["src/helper.php"]
+    },
+    "authors": [
+        {
+            "name": "Usiobaifo Kenneth",
+            "email": "kenneth@hitekfinancials.ng"
+        }
+    ],
+    "require": {}
+}
